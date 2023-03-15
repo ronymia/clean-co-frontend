@@ -48,7 +48,7 @@ export default function Header() {
 
 
      return (
-          <header className="w-full px-4 md:px-24 py-5 fixed top-0 z-50 h-[80px]">
+          <header className="w-full px-4 md:px-24 py-5 fixed top-0 z-50 bg-white">
                <nav className="flex items-center justify-between">
                     <div className="">
                          <h1>Clean Co.</h1>
