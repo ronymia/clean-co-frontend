@@ -1,9 +1,10 @@
 import React from 'react';
+import Banner from '../Banner/Banner';
 
 export default function Home() {
      return (
-          <div className="">
-               <h1>this is home</h1>
+          <div className="mt-[80px]">
+               <Banner />
           </div>
      );
 }
