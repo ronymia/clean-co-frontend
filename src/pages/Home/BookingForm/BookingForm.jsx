@@ -4,7 +4,7 @@ export default function BookingForm() {
      return (
           <section className="bg-[#f2f2f2] rounded-xl w-[90%] mx-auto p-10 -mt-16 relative z-20 box-shadow">
                <h2 className='text-3xl text-primary mb-5'>Get Free Estimate</h2>
-               <div className="w-full gap-5 grid grid-cols-4">
+               <div className="w-full grid grid-cols-1 md:grid-cols-4 gap-5">
                     <input type="text"
                          placeholder='Your Name'
                          className="border border-[#cfcfcf] w-[260px] h-11 rounded-lg text-sm placeholder:text-sm placeholder:text-[#cfcfcf] outline-none px-4 py-3"
